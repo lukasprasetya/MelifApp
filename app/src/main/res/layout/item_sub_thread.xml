@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/dark_melif"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ly_l"
+        android:background="@color/dark_melif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/iv_profile_pict"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_content_thread"
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/white_melif"
+            android:ellipsize="end"
+            android:maxLines="6"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toRightOf="@+id/iv_profile_pict"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_text_owner"
+            tools:text="@tools:sample/lorem/random" />
+
+        <TextView
+            android:id="@+id/tv_name_thread_starter"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="14sp"
+            android:textColor="@color/white_melif"
+            app:layout_constraintLeft_toRightOf="@+id/iv_profile_pict"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginTop="8dp"
+            tools:text="" />
+
+        <TextView
+            android:id="@+id/tv_date_thread_starter"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white_melif"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintRight_toLeftOf="@+id/iv_profile_pict"
+            app:layout_constraintTop_toBottomOf="@id/tv_name_thread_starter"
+            tools:text="" />
+
+        <TextView
+            android:id="@+id/tv_text_owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Owner"
+            android:textColor="@color/white_melif"
+
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintLeft_toRightOf="@+id/iv_profile_pict"
+            app:layout_constraintTop_toBottomOf="@id/tv_date_thread_starter"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ly_r"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/iv_profile_pict_r"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_content_thread_r"
+            style="@style/TextAppearance.MaterialComponents.Subtitle1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginEnd="8dp"
+            android:ellipsize="end"
+            android:maxLines="6"
+            android:textColor="@color/white_melif"
+            android:textSize="14sp"
+            app:layout_constraintRight_toLeftOf="@+id/iv_profile_pict_r"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_text_owner_r"
+            tools:text="@tools:sample/lorem/random" />
+
+        <TextView
+            android:id="@+id/tv_name_thread_starter_r"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:textSize="14sp"
+            android:textColor="@color/white_melif"
+            app:layout_constraintRight_toLeftOf="@+id/iv_profile_pict_r"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginTop="8dp"
+            tools:text="" />
+
+        <TextView
+            android:id="@+id/tv_date_thread_starter_r"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white_melif"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintRight_toLeftOf="@+id/iv_profile_pict_r"
+            app:layout_constraintTop_toBottomOf="@id/tv_name_thread_starter_r"
+            tools:text="" />
+
+        <TextView
+            android:id="@+id/tv_text_owner_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="Owner"
+            android:textColor="@color/white_melif"
+            android:textStyle="bold"
+            android:visibility="gone"
+            app:layout_constraintRight_toLeftOf="@+id/iv_profile_pict_r"
+            app:layout_constraintTop_toBottomOf="@id/tv_date_thread_starter_r"
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

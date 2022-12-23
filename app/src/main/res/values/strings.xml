@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">melif</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="text_next">Next</string>
+    <string name="text_back">Back</string>
+    <string name="desc_about">Hi, Thank you for using Melif App. This app have goal, and its to make you helped when you need all infomation about movie of tv show.</string>
+    <string name="desc_about2">Created by people who have a passion to lead the next generator</string>
+    <string name="text_menu">Home</string>
+    <string name="text_icon_menu_logout">Logout</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="top_airing_section">Top Airing</string>
+    <string name="anime_list_section">Other Anime</string>
+    <string name="recent_release_section">Recent Release</string>
+    <string name="text_empty_data">No Data</string>
+    <string name="text_url_empty">Url is Empty</string>
+    <string name="text_hello">Hello!</string>
+    <string name="text_desc_login">Please login to your account,\n so you can use this forum chat\n feature, Thank you</string>
+    <string name="text_login_with_google">Login With Google</string>
+
+
+
+    <string name="text_dialog_logout_task_positive">Yes</string>
+    <string name="text_dialog_logout_task_negative">No</string>
+    <string name="text_logout_dialog">Do you want to Logout ?</string>
+    <string name="title_anime_list">Anime List</string>
+    <string name="what_do_you_want_to_discuss">What do you want to discuss ?</string>
+    <string name="thread_title">Thread Title</string>
+    <string name="text_error_empty_title">Please Input thread title !</string>
+    <string name="text_error_empty_body">Please input thread body !</string>
+    <string name="title_fragment_home">Home</string>
+    <string name="title_fragment_thread">Forum</string>
+    <string name="text_container_display_creator_thread">Created by %s</string>
+    <string name="text_empty_data_subthread">No one reply in this thread :(</string>
+    <string name="text_overview_dummy">Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.</string>
+    <string name="text_overview">Overview</string>
+
+    <string name="text_movie_list">Movie List</string>
+
+    <string name="popular_movie_section">Popular Movie</string>
+    <string name="text_new_playing">Now Playing Movie</string>
+    <string name="top_rated_movie_section">Top Rated Movie</string>
+
+    <string name="popular_tv_section">Popular Tv</string>
+    <string name="latest_tv_section">Latest TV</string>
+    <string name="top_rated_tv_section">Top Rated TV</string>
+    <string name="text_error_youtube">Error!</string>
+    <string name="text_tvshow_list">Tv Show List</string>
+    <string name="text_new_release">New Release</string>
+    <string name="text_lp01">Only With Us Only \nFor You</string>
+    <string name="text_lp02">Welcome To Melif \nMovie Catalogue</string>
+    <string name="text_lp03">If You Looking For \nThe Latest Movie</string>
+    <string name="text_trailer_no">Trailer Not Available</string>
+    <string name="text_watch_trailer">Watch Trailer</string>
+    <string name="info_apps">Info Apps</string>
+
+</resources>
